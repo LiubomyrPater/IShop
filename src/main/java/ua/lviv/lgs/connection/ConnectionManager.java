@@ -8,8 +8,8 @@ import java.sql.SQLException;
 
 public class ConnectionManager {
 
-    private final static String USER_NAME = "user";
-    private final static String USER_PASSWORD = "1111";
+    private final static String USER_NAME = "admin";
+    private final static String USER_PASSWORD = "admin";
     private final static String URL = "jdbc:mysql://localhost/i_shop";
 
     private static Connection connection;
