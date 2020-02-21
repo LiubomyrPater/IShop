@@ -14,7 +14,7 @@ public class Main {
         User user = new User("test2@mail.com", "test2", "test2", "USER");
 
         User savedUser = userService.save(user);
-        //User savedUser = userService.findById(3);
+       // User savedUser = userService.findById(3);
         System.out.println(savedUser);
 
 /*
